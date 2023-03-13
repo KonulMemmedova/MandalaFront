@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    background-color: blueviolet;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/6307205/pexels-photo-6307205.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div{
+    background-color: brown;
+}
+.div ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.div ul li{
+  
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.div ul li a{
+    text-decoration: none;
+    color: white;
+}
