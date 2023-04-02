@@ -1,0 +1,110 @@
+/*nav*/
+
+header {
+    background-color: black;
+    padding: 20px 25px;
+}
+span{
+    color: blue;
+    font-size: 30px;
+}
+nav {
+    display: inline-block;
+    width: cals(100% -100px);
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 25px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 15px 25px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+.section1{
+    background-image: url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: top;
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+    padding: 12px;
+}
+
+.btn1 {
+    margin-left: 40%;
+    margin-top: 20%;
+    background-color: red;
+    color: white;
+    padding: 25px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    transition: color 1s;
+}
+
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0;
+}
+.card{
+    width: 25%;
+    box-shadow: 0 5px 9px 0  black;
+    border-radius: 6px;
+
+}
+
+
+.card:hover{
+    opacity: 0.7;
+}
+
+
+.container{
+    padding: 5px 20px;
+}
+
+.container p{
+    margin: 15px 0;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+p{
+    font-size: 19px;
+
+}
+
+
+
+
+
